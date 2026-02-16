@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Delicious Food Recipes</h1>
+        <p>Easy & Tasty Recipes for Everyone</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Recipe Section -->
+    <main>
+        <!-- Recipe Card 1 -->
+        <div class="recipe-card">
+            <img src="https://source.unsplash.com/800x400/?biryani" alt="Chicken Biryani">
+            <h2>Chicken Biryani</h2>
+            <p><strong>Ingredients:</strong> Rice, Chicken, Spices, Onion, Tomato, Yogurt</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Cook rice separately.</li>
+                <li>Cook chicken with spices.</li>
+                <li>Layer rice and chicken.</li>
+                <li>Steam for 10 minutes.</li>
+            </ol>
+        </div>
+
+        <!-- Recipe Card 2 -->
+        <div class="recipe-card">
+            <img src="https://source.unsplash.com/800x400/?pizza" alt="Cheese Pizza">
+            <h2>Cheese Pizza</h2>
+            <p><strong>Ingredients:</strong> Pizza Base, Cheese, Tomato Sauce, Capsicum</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Spread sauce on base.</li>
+                <li>Add cheese and vegetables.</li>
+                <li>Bake at 200°C for 15 minutes.</li>
+            </ol>
+        </div>
+
+        <!-- Recipe Card 3 -->
+        <div class="recipe-card">
+            <img src="https://source.unsplash.com/800x400/?burger" alt="Beef Burger">
+            <h2>Beef Burger</h2>
+            <p><strong>Ingredients:</strong> Burger Bun, Beef Patty, Lettuce, Tomato, Sauce</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Grill the patty.</li>
+                <li>Toast the buns.</li>
+                <li>Assemble with vegetables and sauce.</li>
+            </ol>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Delicious Food Recipes | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
